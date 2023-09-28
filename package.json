@@ -1,7 +1,7 @@
 {
-  "name": "reborn-example-plugin",
+  "name": "reborn-hacked-client",
   "version": "1.0.0",
-  "description": "example typescript plugin for Eagler Reborn",
+  "description": "example hacked client plugin for Eagler Reborn",
   "scripts": {
     "build": "webpack"
   },

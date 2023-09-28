@@ -1,2 +1,2 @@
 import { displayToChat } from "./chat"
-displayToChat("Hello Eagler Reborn!")
+console.log("[REBORNHACKEDCLIENT] loading client...")

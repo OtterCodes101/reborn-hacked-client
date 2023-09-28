@@ -1,3 +1,4 @@
+import { displayToChat } from "./chat"
 export function registerSpider() {
   let spiderToggle: boolean = false;
   // @ts-ignore
@@ -12,4 +13,16 @@ export function registerSpider() {
       PluginAPI.player.reload();
     }
   });
+  // @ts-ignore
+  PluginAPI.addEventListener("key", (event) => {
+    //@ ts-ignore
+    if (event.key == 22) {
+      spiderToggle = !spiderToggle;
+      if (spiderToggle == true) {
+        displayToChat("§6§l[REBORNHACKEDCLIENT] §r§eEnabled spider.")
+      } else {
+        displayToChat("§6§l[REBORNHACKEDCLIENT] §r§eDisabled spider.")
+      }
+    }
+  }
 }

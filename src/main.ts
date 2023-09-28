@@ -1,2 +1,5 @@
 import { displayToChat } from "./chat"
-console.log("[REBORNHACKEDCLIENT] loading client...")
+import { registerSpider } from "./spider"
+console.log("[REBORNHACKEDCLIENT] Loading client...")
+registerSpider()
+console.log("[REBORNHACKEDCLIENT] Finished!")

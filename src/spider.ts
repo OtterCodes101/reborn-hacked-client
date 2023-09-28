@@ -17,12 +17,12 @@ export function registerSpider() {
   PluginAPI.addEventListener("key", (event) => {
     //@ ts-ignore
     if (event.key == 22) {
-      spiderToggle = !spiderToggle;
+      spiderToggle = !spiderToggle
       if (spiderToggle == true) {
         displayToChat("§6§l[REBORNHACKEDCLIENT] §r§eEnabled spider.")
       } else {
         displayToChat("§6§l[REBORNHACKEDCLIENT] §r§eDisabled spider.")
       }
     }
-  }
+  })
 }
